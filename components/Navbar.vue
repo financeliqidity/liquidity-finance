@@ -7,7 +7,7 @@
             ><img src="~/static/icon2.png" width="30px" alt=""
           /></span>
           <h3 class="text-light fw-700 d-none d-sm-inline">
-            Liguidity Finance
+            Liquidity Finance
           </h3>
         </a>
       </div>
