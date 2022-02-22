@@ -14,11 +14,7 @@
                   <p class="text-light lead">
                     Liquidity Finance is a products-focused (Defi, Gamefi,
                     Metaverse and NFT) project that is centered on developing
-                    secure and innovative blockchain products. Share the revenue
-                    (in fees) generated from those products to LFI token holders
-                    base on shares in LFI pool. <br />
-                    Our first launching products: LFISWAP, ISO launchpad, DAO
-                    and LFIBRIDGE.
+                    secure and innovative blockchain products.
                   </p>
                 </div>
                 <div class="mb-5">
@@ -79,7 +75,6 @@
     </main>
 
     <!-- SECOND AREA -->
-
     <main class="bg-secondary p-sm-5 text-center" id="TOKENOMICS">
       <div class="p-sm-5 p-3 py-5">
         <div class="mb-5">
@@ -91,13 +86,12 @@
     </main>
 
     <!-- THIRD AREA -->
-
     <main class="container p-4 py-5">
       <div class="p-sm-5">
         <h1 class="text-light display-3 fw-900 mb-3">Governance</h1>
         <h4 class="fw-700 text-warning">Governed by the community</h4>
 
-        <p class="text-light text-justify lead">
+        <p class="text-light lead">
           Our governance is ruled by a President and 4 Governors whose
           leadership depends on the Civilians (our token holders with a few
           minimum amount of tokens stored in either wallet or staked.) and
@@ -379,19 +373,20 @@ export default Vue.extend({
             { label: "PRIVATE SALE ROUND ANNOUNCEMENT", status: false },
             { label: "PRIVATE SALE", status: false },
             { label: "PUBLIC SALE ANNOUNCEMENT", status: false },
-            { label: "PUBLIC SALE", status: false },
           ],
         },
         {
           text: "Q2 2022",
           subtext: " Products Development",
           checked: [
-            { label: "ISO DAPP", status: false },
-            { label: "LFI DAPP", status: false },
-            { label: "LFISWAP & PANCAKE SWAP LISTING", status: false },
+            { label: "PUBLIC SALE", status: false },
+            { label: "PANCAKE SWAP LISTING", status: false },
+            { label: "LIQUIDITY LOCKING", status: false },
+            { label: "LFISWAP DEX", status: false },
             { label: "STAKING DASHBOARD", status: false },
             { label: "FARMING", status: false },
-            { label: "LIQUIDITY LOCKING", status: false },
+            { label: "LFIBRIDGE", status: false },
+            { label: "ISO LAUNCHPAD", status: false },
             { label: "NEW ROADMAP FOR MORE PRODUCTS", status: false },
           ],
         },

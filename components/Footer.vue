@@ -80,10 +80,6 @@
       </div>
 
       <div class="d-flex align-items-center pe-sm-5 me-sm-5">
-        <!-- <div class="me-2 me-sm-4">
-                    <img src="~/assets/img/lfi.png" width="20px" alt="">
-                    <span class="text-muted small te">$0.00001</span>
-                </div> -->
         <div>
           <button class="btn btn-primary rounded-lg">
             <span>Buy LFI</span>
