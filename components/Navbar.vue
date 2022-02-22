@@ -43,7 +43,6 @@ export default Vue.extend({
         { title: "Features", url: "#FEATURES", able: true },
         { title: "Tokenomics", url: "#TOKENOMICS", able: true },
         { title: "Roadmap", url: "#ROADMAP", able: true },
-        // {title: "Loan", url: "#", able: true},
       ],
     };
   },

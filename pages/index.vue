@@ -29,35 +29,38 @@
                 <div
                   class="d-flex justify-content-sm-start justify-content-center"
                 >
-                  <p
+                  <a
                     class="rounded-full d-flex justify-content-center align-items-center"
                     style="background: #03a9f43d"
+                    href="https://twitter.com/LIQUIDITFINANCE"
                   >
                     <i
                       class="fab fa-twitter fa-lg text-primary"
                       style="font-size: 24px"
                     ></i>
-                  </p>
+                  </a>
 
-                  <p
+                  <a
                     class="rounded-full d-flex mx-3 justify-content-center align-items-center"
                     style="background: #718fff3d"
+                    href="https://t.me/liquidityfinanc"
                   >
                     <i
                       class="fab fa-telegram fa-lg text-info"
                       style="font-size: 24px"
                     ></i>
-                  </p>
+                  </a>
 
-                  <p
+                  <a
                     class="rounded-full d-flex justify-content-center align-items-center"
                     style="background: #0a4edb3d"
+                    href="https://web.facebook.com/LiquidityFinance-214111300634295"
                   >
                     <i
                       class="fab fa-facebook fa-lg text-primary"
                       style="font-size: 24px"
                     ></i>
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>
@@ -405,12 +408,6 @@ export default Vue.extend({
 </script>
 
 <style>
-/* .bgImage {
-     background-image: url('~/assets/img/background/group9141.png');
-         background-repeat: "no-repeat";
-         background-size: "60%";
-         background-position-x: 100%;
-  } */
 .image {
   width: 120%;
 }

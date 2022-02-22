@@ -4,7 +4,6 @@
       <h1 class="display-4 fw-800">LFI FIRST LAUNCHING PRODUCTS</h1>
     </div>
 
-    <!-- TABS -->
     <main class="bg-secondary p-sm-4 p-2">
       <div class="container text-center">
         <ul
@@ -51,9 +50,16 @@
               LFI VOTING
             </button>
           </li>
-          <!-- <li class="nav-item" style="min-width: fit-content">
-                    <a href="#" class="nav-link fw-700 lead text-light">LFI BRIDGE</a>
-                </li> -->
+          <li class="nav-item" style="min-width: fit-content">
+            <button
+              class="nav-link fw-700 text-light"
+              data-bs-toggle="tab"
+              data-bs-target="#BRIDGE"
+              type="button"
+            >
+              LFI BRIDGE
+            </button>
+          </li>
         </ul>
       </div>
     </main>
@@ -86,7 +92,7 @@
                 <div>
                   <p class="fw-900">TOKEN INFO</p>
                   <p>
-                    Total Volume Locked, Available Liquidity, Trust Score, Token
+                    Total Value Locked, Available Liquidity, Trust Score, Token
                     website, Social links and more.
                   </p>
                 </div>
@@ -117,8 +123,6 @@
           </main>
         </main>
       </main>
-
-      <!-- AREA 5 -->
 
       <main class="bg-dark tab-pane fade" id="LIQUIDITY">
         <main class="container py-5">
@@ -235,7 +239,6 @@
         </main>
       </main>
 
-      <!-- AREA 7 -->
       <main class="bg-dark tab-pane fade" id="VOTING">
         <main class="container py-5">
           <main class="row p-sm-5 p-3 align-items-center">
@@ -250,7 +253,7 @@
             </div>
             <div class="col-sm-4 p-3">
               <div>
-                <h2 class="text-muted fw-700">Decentralized Exchange</h2>
+                <!-- <h2 class="text-muted fw-700">Decentralized Exchange</h2> -->
                 <h1 class="text-warning display-1 fw-900">VOTING</h1>
                 <p class="text-light fw-400">
                   Liquidity Finance voting system is designed for decision
@@ -282,13 +285,69 @@
           </main>
         </main>
       </main>
+
+      <main class="bg-dark tab-pane fade" id="BRIDGE">
+        <main class="container py-5">
+          <main
+            class="row p-sm-4 p-2 flex-column-reverse flex-sm-row align-items-center"
+          >
+            <div class="col-sm-5">
+              <div>
+                <h2 class="text-muted fw-700">Decentralized Exchange</h2>
+                <h1 class="text-warning display-1 fw-900">LFI BRIDGE</h1>
+                <p class="text-light fw-400">
+                  Liquidity Finance Bridge allows users to perform transaction
+                  in multi-chain.
+                </p>
+              </div>
+
+              <div class="text-light">
+                <div>
+                  <p class="fw-900 lead">MULTI-CHAINS</p>
+
+                  <ul>
+                    <li>Binance Smart Chain Mainnet</li>
+                    <li>Polygon Mainnet</li>
+                    <li>Ethereum Mainnet</li>
+                    <li>Avalanche Mainnet</li>
+                    <li>Fantom Mainnet</li>
+                    <li>Arbitrum Mainnet</li>
+                    <li>Celo Mainnet</li>
+                    <li>Heco Mainnet</li>
+                    <li>Cronos Mainnet</li>
+                    <li>OEC Mainnet</li>
+                    <li>Telos Mainnet</li>
+                    <li>and more.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div>
+                <button
+                  class="btn btn-outline-warning btn-lg shadow px-3 py-3 rounded-lg"
+                >
+                  <small class="fw-700">READ MORE</small>
+                </button>
+              </div>
+            </div>
+
+            <div class="col-sm">
+              <div style="overflow-x: hidden">
+                <img
+                  src="~/assets/img/background/bridge.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </main>
+        </main>
+      </main>
     </main>
   </main>
 </template>
 
 <style scoped>
-/* width */
-
 .nav-pills .nav-link.active {
   background-color: transparent !important;
   border-bottom: 4px solid #2669f5;
