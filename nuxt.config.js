@@ -12,7 +12,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       { rel: "stylesheet", href: "https://use.fontawesome.com/releases/v5.15.1/css/solid.css", integrity: "sha384-yo370P8tRI3EbMVcDU+ziwsS/s62yNv3tgdMqDSsRSILohhnOrDNl142Df8wuHA+", crossorigin: "anonymous" },
       { rel: "stylesheet", href: "https://use.fontawesome.com/releases/v5.15.1/css/regular.css", integrity: "sha384-APzfePYec2VC7jyJSpgbPrqGZ365g49SgeW+7abV1GaUnDwW7dQIYFc+EuAuIx0c", crossorigin: "anonymous" },
       { rel: "stylesheet", href: "https://use.fontawesome.com/releases/v5.15.1/css/brands.css", integrity: "sha384-/feuykTegPRR7MxelAQ+2VUMibQwKyO6okSsWiblZAJhUSTF9QAVR0QLk6YwNURa", crossorigin: "anonymous" },
