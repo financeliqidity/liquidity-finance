@@ -336,9 +336,9 @@ export default Vue.extend({
           title: "Founder/CEO",
           portfolio: "Cryptocurrency Expert",
           image: require("~/assets/img/team/abu.png"),
-          instagram: "#",
-          twitter: "#",
-          linkedin: false,
+          instagram: false,
+          twitter: "https://twitter.com/maigadohcrypto",
+          linkedin: "https://Www.linkedin.com/in/maigadoh" ,
         },
         {
           name: "Ukpe, Jacob Emmanuel",
