@@ -9,7 +9,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: "Liquidity finance (LFI) is the first project developed to reward it's LFI token holders all the revenue generated from it's products(LFISWAP, ISO & more)." },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      {name: "og:title", property:"og:title", content: "Liquidity Finance" }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' },
